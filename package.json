@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "vite",
-    "dev": "vite",
+    "dev": "vite --port 5000",
     "build": "tsc && vite build",
     "prepare": "husky install",
     "test": "vitest",

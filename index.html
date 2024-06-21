@@ -11,8 +11,9 @@
     />
     <link rel="apple-touch-icon" href="/logo192.png" />
     <link rel="manifest" href="/manifest.json" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite Counter</title>
+    <script src="./src/index.js" type="module"></script>
+    <script type="module" src="./src/style.css"></script>
   </head>
   <body>
     <div id="root">
@@ -22,8 +23,8 @@
       <main class="application">
         <p id="count" class="count">0</p>
         <div class="buttons">
-          <button id="increment">Increment</button>
-          <button id="decrement">Decrement</button>
+          <button type="button" id="increment">Increment</button>
+          <button type="button" id="decrement">Decrement</button>
         </div>
         <div id="content"></div>
       </main>
