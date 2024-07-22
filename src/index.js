@@ -1,6 +1,6 @@
 // import { initializeCounter } from './counter';
 
-console.log('hello from index.js');
+console.log('hello from the starter. ');
 
 // initializeCounter();
 
