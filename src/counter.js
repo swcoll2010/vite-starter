@@ -1,12 +1,13 @@
-import styles from './counter.module.css';
+import { removeBanner } from './banner.js';
 import './postcss.css';
+import './style.css';
 
 export const initializeCounter = (doc = globalThis.document) => {
   const countElement = doc.getElementById('count');
   const incrementButton = doc.getElementById('increment');
   const decrementButton = doc.getElementById('decrement');
 
-  countElement.classList.add(styles.count);
+  // countElement.classList.add(styles.count);
 
   let count = 0;
 
