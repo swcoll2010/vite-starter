@@ -5,3 +5,10 @@ export const addBanner = (text) => {
   content.textContent = text;
   content.classList.add(styles.content);
 };
+
+export const removeBanner = () => {
+  const content = document.querySelector('#content');
+  if (content) {
+    content.innerHTML = '';
+  }
+};
